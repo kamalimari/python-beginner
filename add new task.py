@@ -1,8 +1,12 @@
+def function1_name():
+    if(num1 == num2)
+
 def function_name():
     print("num1=2")
     print("num1=2")
 
 a = str(input("tell your comment"))
+
 
 if a == "yes":
     num1=int(input("enter the number1"))
