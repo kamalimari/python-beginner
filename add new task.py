@@ -1,18 +1,31 @@
 def function1_name():
-    if(num1 == num2)
+    if num1 == num2:
+        result = (num1 + num2)*2
+        print(result)
+    else:
+        result1 = num1 + num2
+        print(result1)
 
-def function_name():
-    print("num1=2")
-    print("num1=2")
+
+num1=4
+num2=7
+def function2_name():
+    function1_name()
+
 
 a = str(input("tell your comment"))
-
-
 if a == "yes":
     num1=int(input("enter the number1"))
     num2=int(input("enter the number2"))
+    function1_name()
+
 elif a == "no":
-    function_name()
+    function2_name()
+
+
+
+
+
 
 # def function_name(number1,number2 = 2);
 #     if:
