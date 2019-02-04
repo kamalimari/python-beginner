@@ -1,7 +1,5 @@
 b = "Hello,5,kamali"
-
-
-print(b.replace(b[3], "i"))
+print(b.replace(b[2], "i"))
 print(b.strip())
 print(b.lower())
 print(b.upper())

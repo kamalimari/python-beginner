@@ -12,10 +12,10 @@ def duplicate_(list_):
     for i in range(0, length_):
         for j in range(1, length_):
             if list_[i] == list_[j]:
-                for k in range(i, length_-1):
+                for k in range(j, length_ - 1):
                     list_[k] = list_[k+1]
-                    j = j - 1
     return list_
 
 
-duplicate_(getting_values())
+getting_values()
+duplicate_(list_)
