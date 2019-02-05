@@ -19,6 +19,8 @@ class SelfPublishingLiteraryAgent(Agent):
 
 
 class Publishers(LiteraryAgent, SelfPublishingLiteraryAgent):
-    def __init__(self, name, literary, selfpublishing_):
+    def __init__(self, name, literary, selfpublishing_, publishers_name):
         self.__init__(self, name, literary)
         self.__init__(self, name, selfpublishing_)
+        self.publishers_name = publishers_name
+        print()
