@@ -8,5 +8,5 @@ print(b.split(","))
 
 a, c, d = b.split(",")
 print(a, c, d)
-print(a)
+print(a[0])
 
